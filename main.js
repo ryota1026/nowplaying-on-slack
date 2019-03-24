@@ -1,5 +1,5 @@
 const request = require('request');
-const { exec } = require('child_process');
+const {exec} = require('child_process');
 
 const token = process.env.SLACK_API_TOKEN;
 const spotifyScript = './bin/get-playing-on-spotify';
